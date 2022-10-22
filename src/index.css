@@ -1,0 +1,48 @@
+/* please import font family that you using in porject */
+/* e.g. @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* COLOR */
+:root {
+  --primary: rgb(30, 30, 30);
+  --secondary: rgb(80, 80, 80);
+}
+
+:root {
+  color-scheme: light dark;
+  color: var(--primary);
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+
+* {
+  scroll-behavior: smooth;
+}
